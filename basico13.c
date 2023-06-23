@@ -1,0 +1,1 @@
+/* Escreva um programa que solicita e lê um número, calcula e exibe o seu cubo. */

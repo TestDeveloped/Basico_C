@@ -1,0 +1,97 @@
+CODIGOS DE FORMATAÇÃO 
+
+Código | Tipo
+%c | char
+%i | int
+%f | float
+%lf | double
+%s | string
+
+FUNÇÃO DE SAIDA - PRINTF
+printf(“<texto/código de formatação>”, <constante/variável/expressão>);
+
+FUNÇÃO DE ENTRADA - SCANF
+scanf(“<código de formatação>”, &<identificador da variável>);
+
+CODIGOS ESPECIAIS - utilizados na função PRINTF
+Código | Significado
+\n | Faz com que o cursor pule uma linha 
+\t | Produz uma tabulação horizontal 
+\a | Produz um sinal sonoro
+\” | Exibe na tela uma ”
+\\ | Exibe na tela uma \
+%% | Exibe na tela um %
+
+DIRETIVAS - #
+#include 
+#define
+Diretiva | Significado
+#include<stdio.h> | Funções de entrada e saída
+#include<stdlib.h> | Funções padrão
+#include<math.h> | Funções matemáticas
+#include<string.h> | Funções de texto
+#include<locale.h> | Função para acentuar as palavras
+
+CONSTANTES - const
+
+VARIÁVEL - espaço alocado na memoria principal
+
+TIPOS DE DADOS
+Tipo | Natureza | Bits na Memória
+char | Caractere | 8
+int | Inteiro | 32
+float | Real | 32
+double | Real | 64
+
+DECLARAÇÃO DE VARIÁVEIS
+<tipo da variável> <identificador da variável>;
+
+ATRIBUIÇÕES
+
+INICIALIZAÇÃO
+
+EXPRESSÕES
+    OPERANDOS
+    OPERADORES
+    EXPRESSÕES 
+
+OPERADORES ARITMÉTICOS
+Operador Aritmético | Linguagem C
+Adição | +
+Subtração | -
+Multiplicação | *
+Divisão | /
+Módulo (resto da divisão) | %
+
+OPERADORES E ATRIBUIÇÃO
+Forma Tradicional | Forma Equivalente
+x = x + y | x += y
+x = x – y | x -= y
+x = x * y | x *= y
+x = x / y | x /= y
+x = x % y | x %= y
+
+OPERADORES ARITMÉTICOS
+Operador Aritmético | Linguagem C
+Incremento | ++
+Decremento | --
+
+Forma Tradicional | Forma Equivalente
+cont = cont + 1; | cont++;
+cont = cont – 1; | cont--;
+
+OPERADORES RELACIONAIS 
+Operador Relacional | Linguagem C
+Maior | >
+Menor | <
+Maior ou igual | >=
+Menor ou igual | <=
+Igual | ==
+Diferente | !=
+
+OPERADORES LÓGICOS
+Operador Lógico | Linguagem C
+AND | && |Resulta verdadeiro se todas as partes forem verdadeiras
+OR | || |Resulta verdadeiro se ao menos uma das partes for verdadeira
+NOT | ! |Nega a expressão, ou seja, inverte o valor.
+

@@ -1,0 +1,2 @@
+/* Faça uma função, sem retorno, que recebe um valor inteiro por parâmetro e informa 
+se ele é par ou ímpar. */
